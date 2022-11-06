@@ -6,4 +6,6 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    return sum(list(range(n)))
+print(main(3))
+    
