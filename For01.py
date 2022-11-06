@@ -9,10 +9,5 @@ def main(n):
     Returns:
         list: return  answer
     """
-    k = 0
-    list1=[]
-    while k<n:
-        list1=list1+[k+1]
-        k+=1
-    return list1
-print(main(5))
+    return list(range(n))
+print(main(5)) 
